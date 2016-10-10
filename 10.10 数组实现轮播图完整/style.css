@@ -1,0 +1,42 @@
+#carousel {
+    height: 800px;
+    width: 1280px;
+    margin: 0 auto;
+    background: #000;
+}
+
+#carousel .controlButton{
+    position: absolute;
+    top:50%;
+    font-size: 40pt;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#carousel .preButton {
+    left: 10%;
+}
+
+#carousel .nextButton {
+    right: 10%;
+}
+
+#buttonList{
+    position: absolute;
+    top: 80%;
+    right: 20%;
+}
+
+#selectPoint{
+    background:#fff;
+}
+
+.pointButton{
+    width:30px;
+    height:30px;
+    border-radius:15px;
+    margin:15px;
+    background:#d1d1d1;
+    border-style:none;
+    outline:none;
+}
