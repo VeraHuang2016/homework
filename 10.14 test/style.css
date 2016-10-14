@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box,#box2{
+    width: 1280px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+b{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    color: #666;
+    line-height: 100px;
+}
+
+#list2{
+    position: absolute;
+    z-index: 1;
+    width: 6400px;
+    height: 800px;
+}
+
+#box img{
+    width: 1280px;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    z-index: 1;
+}
+
+#box2 img{
+    float: left;
+    width: 1280px;
+    height: 800px;
+}
+
+#buttons,#buttons2{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    z-index: 100;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    border-style: none;
+    margin-right: 20px;
+    background-color: darkcyan;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#pre,#pre2{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: 80px;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#next,#next2{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 80px;
+    color: #ffffff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+#selected{
+    background-color: #ffffff;
+    color:darkcyan ;
+}

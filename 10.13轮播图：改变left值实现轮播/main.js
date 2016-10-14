@@ -1,6 +1,7 @@
 /**
  * Created by Administrator on 2016/10/13 0013.
  */
+
 (function(){
     var list=document.getElementById("list");
     var pre=document.getElementById("pre");
