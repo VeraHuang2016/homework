@@ -1,0 +1,18 @@
+#turn{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+}
+
+#turn2{
+    width: 0px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    top: -100px;
+}
