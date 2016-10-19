@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .div1{
+            width: 200px;
+            height: 200px;
+            background-color: mediumpurple;
+            margin: 10px;
+            position: relative;
+        }
+        .div2{
+            width: 200px;
+            height: 200px;
+            background-color: cadetblue;
+            margin: 10px;
+            position: relative;
+        }
+        .context1{
+            width: 90px;
+            border: 1px solid #eeeeee;
+            border-radius: 5px;
+            background-color: #ffffff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+        .context1 li{
+            width: 90px;
+            height: 30px;
+            border-bottom: 1px solid #eeeeee;
+            list-style-type: none;
+            text-align: center;
+        }
+        .context1 li a{
+            text-decoration: none;
+            color: #666;
+            line-height: 30px;
+            font-size: 12px;
+        }
+        .context1 li:hover a{
+            color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="div1">
+    <ul class="context1" id="context1">
+        <li><a href="#" id="tanchu">弹出信息</a></li>
+    </ul>
+</div>
+<div class="div2">
+    <ul class="context1" id="context2">
+        <li><a href="https://www.baidu.com/" target="_blank">百度</a></li>
+        <li><a href="https://www.taobao.com/" target="_blank">淘宝</a></li>
+    </ul>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
